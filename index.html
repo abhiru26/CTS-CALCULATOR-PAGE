@@ -3,55 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
-    <!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-
-
 </head>
 <body>
-    <center>
-     <center style="height:300px; width:400px;"><font color="blue" size="20">Calculator</font>
-     <p><center><img src="static/img/calculator.jpg" alt="Header Image" height=300 width=400 ></center></p>
-     <div class="row">
-         <div style="text-align:left;" class="col-6">
-            <p>Input1</p>
-         </div>
-         <div class="col-6">
-            <input type="text">
-         </div>
-     </div>
-     <div class="row">
-        <div style="text-align:left;" class="col-6">
-           <p>Input2:</p>
+    <div class="container">
+        <center><font color="blue" size="20">Calculator</font></center>
+
+       <center> <img src="pp.jpg" style="margin-left:auto" alt="calcualtor.jpg"  height="300" width="400" ></center>
+
+        <div style="margin-left:750px;">
+         <form>
+             <label>Input1</label>
+             <input  style="margin-left:179px;margin-top:4px;text-align:center" type="number" name="input1">
+         </form>
+            <form>
+             <label>Input2</label>
+             <input style="margin-left:179px;margin-top:4px" type="number" name="input1">
+         </form>
+            <form>
+             <label>Select Operation</label>
+             <select STYLE="margin-left:114px;margin-top:4px;" name="operation">
+                 <option value="">Select..</option>
+                 <option value="">ADD</option>
+                  <option value="">SUBSTRACT</option>
+                  <option value="">MULTIPLY</option>
+                  <option value="">DIVIDE</option>
+             </select>
+         </form>
+            <img src="pp.jpg" height="80" width="80">
+            <img style="margin-left:141px;margin-top:6px;" src="pp.jpg" height="80" width="80">
         </div>
-        <div class="col-6">
-            <input type="text">
-        </div>
-    </div>
-    <div class="row">
-        <div style="text-align:left;" class="col-6">
-           <p>Select Operation</p>
-        </div>
-        <div style="text-align: left;"class="col-6">
-            <select style="width:60%;" name="" id="">
-                <option value="default">Select..</option>
-                <option value="ADD">ADD</option>
-                <option value="SUBSTRACTION">SUBSTRACT</option>
-                <option value="MULTIPLY">MULTIPLY</option>
-                <option value="DIVIDE">DIVIDE</option>
-            </select>
-        </div>
-    </div>
-    <div class="row">
-        <div style="text-align:left;" class="col-6">
-           <button style="border: none;"><img style="height:80px; width:80px;" src="https://i.pinimg.com/originals/c6/58/e8/c658e807a02f1a9857739550ef5dbe8e.png" alt="calculator"></button>
-        </div>
-        <div style="text-align:left;" class="col-6">
-            <button style="border: none;" onclick="window.location.reload();"><img style="height:80px; width:80px;" src="https://eatwellplaymore.files.wordpress.com/2013/08/refresh.jpg" alt="refresh"></button>
-        </div>
-    </div>
-</center>
-</center>
+
+
+
 </body>
 </html>
